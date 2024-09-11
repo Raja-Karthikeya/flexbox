@@ -1,0 +1,47 @@
+body{
+    background-color: lightblue;
+}
+.outer{
+    display: flex;
+    width: 40em;
+    height: 15em;
+    background-color: whitesmoke;
+    padding: 1em 1em 0em 1em;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    margin: 1em auto;
+}
+.inner{
+    width: 40em;
+    height: 15em;
+    background-color: white;
+    border-radius: 5px;
+}
+.header{
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5px;
+}
+svg{
+    margin-bottom: -3px;
+}
+img{
+    width: 4em;
+    border: 1px solid red;
+    border-radius: 5em;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 1em;
+}
+.b{
+    display: flex;
+}
+.cc{
+    margin-top: 1em;
+    font-weight: lighter;
+}
